@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio-giovanni-sampognaro/static/css/main.778c71ac.css",
-    "main.js": "/portfolio-giovanni-sampognaro/static/js/main.24af06c6.js",
-    "static/media/Rome.jpg": "/portfolio-giovanni-sampognaro/static/media/Rome.1df7f26475bee5b46940.jpg",
-    "static/media/Milan.jpg": "/portfolio-giovanni-sampognaro/static/media/Milan.186b5e9613d055933940.jpg",
-    "static/media/Meteo.jpg": "/portfolio-giovanni-sampognaro/static/media/Meteo.980eb19b4c64e570541a.jpg",
-    "index.html": "/portfolio-giovanni-sampognaro/index.html",
-    "main.778c71ac.css.map": "/portfolio-giovanni-sampognaro/static/css/main.778c71ac.css.map",
-    "main.24af06c6.js.map": "/portfolio-giovanni-sampognaro/static/js/main.24af06c6.js.map"
+    "main.css": "/meteo-italy/static/css/main.778c71ac.css",
+    "main.js": "/meteo-italy/static/js/main.cc5bc058.js",
+    "static/media/Rome.jpg": "/meteo-italy/static/media/Rome.1df7f26475bee5b46940.jpg",
+    "static/media/Milan.jpg": "/meteo-italy/static/media/Milan.186b5e9613d055933940.jpg",
+    "static/media/Meteo.jpg": "/meteo-italy/static/media/Meteo.980eb19b4c64e570541a.jpg",
+    "index.html": "/meteo-italy/index.html",
+    "main.778c71ac.css.map": "/meteo-italy/static/css/main.778c71ac.css.map",
+    "main.cc5bc058.js.map": "/meteo-italy/static/js/main.cc5bc058.js.map"
   },
   "entrypoints": [
     "static/css/main.778c71ac.css",
-    "static/js/main.24af06c6.js"
+    "static/js/main.cc5bc058.js"
   ]
 }
