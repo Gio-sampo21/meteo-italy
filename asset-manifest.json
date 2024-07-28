@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/meteo-italy/static/css/main.778c71ac.css",
-    "main.js": "/meteo-italy/static/js/main.cc5bc058.js",
+    "main.css": "/meteo-italy/static/css/main.b9fa1d59.css",
+    "main.js": "/meteo-italy/static/js/main.5e8559ee.js",
     "static/media/Rome.jpg": "/meteo-italy/static/media/Rome.1df7f26475bee5b46940.jpg",
     "static/media/Milan.jpg": "/meteo-italy/static/media/Milan.186b5e9613d055933940.jpg",
     "static/media/Meteo.jpg": "/meteo-italy/static/media/Meteo.980eb19b4c64e570541a.jpg",
     "index.html": "/meteo-italy/index.html",
-    "main.778c71ac.css.map": "/meteo-italy/static/css/main.778c71ac.css.map",
-    "main.cc5bc058.js.map": "/meteo-italy/static/js/main.cc5bc058.js.map"
+    "main.b9fa1d59.css.map": "/meteo-italy/static/css/main.b9fa1d59.css.map",
+    "main.5e8559ee.js.map": "/meteo-italy/static/js/main.5e8559ee.js.map"
   },
   "entrypoints": [
-    "static/css/main.778c71ac.css",
-    "static/js/main.cc5bc058.js"
+    "static/css/main.b9fa1d59.css",
+    "static/js/main.5e8559ee.js"
   ]
 }
