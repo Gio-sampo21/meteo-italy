@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.778c71ac.css",
-    "main.js": "/static/js/main.ba2a9b6c.js",
-    "static/media/Rome.jpg": "/static/media/Rome.1df7f26475bee5b46940.jpg",
-    "static/media/Milan.jpg": "/static/media/Milan.186b5e9613d055933940.jpg",
-    "static/media/Meteo.jpg": "/static/media/Meteo.980eb19b4c64e570541a.jpg",
-    "index.html": "/index.html",
-    "main.778c71ac.css.map": "/static/css/main.778c71ac.css.map",
-    "main.ba2a9b6c.js.map": "/static/js/main.ba2a9b6c.js.map"
+    "main.css": "/portfolio-giovanni-sampognaro/static/css/main.778c71ac.css",
+    "main.js": "/portfolio-giovanni-sampognaro/static/js/main.24af06c6.js",
+    "static/media/Rome.jpg": "/portfolio-giovanni-sampognaro/static/media/Rome.1df7f26475bee5b46940.jpg",
+    "static/media/Milan.jpg": "/portfolio-giovanni-sampognaro/static/media/Milan.186b5e9613d055933940.jpg",
+    "static/media/Meteo.jpg": "/portfolio-giovanni-sampognaro/static/media/Meteo.980eb19b4c64e570541a.jpg",
+    "index.html": "/portfolio-giovanni-sampognaro/index.html",
+    "main.778c71ac.css.map": "/portfolio-giovanni-sampognaro/static/css/main.778c71ac.css.map",
+    "main.24af06c6.js.map": "/portfolio-giovanni-sampognaro/static/js/main.24af06c6.js.map"
   },
   "entrypoints": [
     "static/css/main.778c71ac.css",
-    "static/js/main.ba2a9b6c.js"
+    "static/js/main.24af06c6.js"
   ]
 }
