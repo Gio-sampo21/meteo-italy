@@ -1,0 +1,257 @@
+/* Styling for the weather-today component */
+.weather-today {
+  margin: 20px;
+  padding: 20px;
+  background: url("https://images.unsplash.com/photo-1561470508-fd4df1ed90b2?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")
+    no-repeat center center;
+  background-size: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.weather-today::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 8px;
+  z-index: -1;
+}
+
+.weather-today h2 {
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.weather-today-city {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #ffd700;
+}
+
+.weather-today-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.weather-today-main {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.weather-today-icon {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+}
+
+.weather-today-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.weather-today-temperature {
+  font-size: 36px;
+  font-weight: bold;
+  color: #ffd700;
+}
+
+.weather-today-description {
+  font-size: 18px;
+  color: #ccc;
+}
+
+.weather-today-details {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  font-size: 16px;
+  color: #ccc;
+}
+
+.weather-today-details p {
+  margin: 0 10px;
+}
+
+.search-container {
+  margin-bottom: 20px;
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto;
+  position: relative;
+}
+
+.search-form input[type="text"] {
+  flex: 1;
+  padding: 10px 10px 10px 40px; /* Increased padding to accommodate the icon */
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 48.3%; /* Set the width to match the drop-menu */
+}
+
+.search-form input[type="text"]:focus {
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+}
+
+.search-icon {
+  position: absolute;
+  left: 10px;
+  font-size: 18px;
+  color: #aaa;
+}
+
+.drop-menu-search {
+  position: absolute;
+  background-color: white;
+  color: black;
+  top: 152px; /* Keep the top position as specified */
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 0;
+  width: 48.3%; /* Match the width to the input */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1001;
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.drop-menu-search p {
+  padding: 10px;
+  cursor: pointer;
+  color: black;
+  margin: 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.drop-menu-search p:last-child {
+  border-bottom: none;
+}
+
+.drop-menu-search p:hover {
+  background-color: #545d66;
+  border-radius: 5px;
+  color: white;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.suggestions {
+  position: absolute;
+  top: -250px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ccc;
+  max-height: 200px;
+  overflow-y: auto;
+  width: 100%;
+  max-width: 600px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  z-index: 1001;
+  box-sizing: border-box;
+}
+
+.suggestions li {
+  padding: 10px;
+  cursor: pointer;
+  color: black; /* Set text color to black */
+}
+
+.suggestions li:hover {
+  background-color: #f0f0f0;
+}
+
+.search-form:focus-within .suggestions {
+  display: block; /* Show when input is focused */
+}
+
+@media screen and (max-width: 768px) {
+  .drop-menu-search {
+    width: 80%; /* Make sure it fits within the viewport */
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .search-form input[type="text"] {
+    width: 80%; /* Adjust input width for smaller screens */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .search-form {
+    flex-direction: column;
+  }
+
+  .search-form input[type="text"] {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 10px;
+    padding: 10px 10px 10px 30px; /* Adjust padding to make room for the icon */
+  }
+
+  .drop-menu-search {
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .search-icon {
+    left: 10px;
+    font-size: 16px; /* Adjust icon size for mobile devices */
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .search-form input[type="text"] {
+    width: 48.3%; /* Ensure input width matches the drop-menu width */
+  }
+
+  .drop-menu-search {
+    width: 48.3%; /* Ensure drop-menu width matches the input width */
+  }
+}
+
+@media screen and (min-width: 1305px) {
+  .drop-menu-search {
+    width: 40%; /* Reduce width of drop-menu for larger screens */
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .search-form input[type="text"] {
+    width: 40%; /* Match input width to drop-menu width */
+  }
+}

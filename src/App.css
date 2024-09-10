@@ -1,0 +1,11 @@
+/* src/App.css */
+.weather-cards {
+  display: flex;
+  overflow-x: auto;
+  scrollbar-width: none; /* Nascondi la barra di scorrimento su Firefox */
+  -ms-overflow-style: none; /* Nascondi la barra di scorrimento su Internet Explorer/Edge */
+}
+
+.weather-cards::-webkit-scrollbar {
+  display: none; /* Nascondi la barra di scorrimento su Chrome e Safari */
+}
